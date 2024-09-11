@@ -2,18 +2,18 @@
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import Home from './components/Home.vue'
+import Navbar from './components/Navbar.vue';
 </script>
 
 <template>
   <header>
    
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
+    <Navbar />
+    
   </header>
 
   <main>
+    
     <TheWelcome />
   </main>
 </template>
