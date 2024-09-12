@@ -41,3 +41,7 @@ onMounted(() => {
   </div>
 </nav>
 </template>
+
+<style>
+
+</style>
